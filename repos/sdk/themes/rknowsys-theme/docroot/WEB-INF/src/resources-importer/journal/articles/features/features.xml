@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+ 
+ <root available-locales="en_US" default-locale="en_US">
+ 	<dynamic-element name="main-heading" index="0" type="text" index-type="keyword">
+ 		<dynamic-content language-id="en_US"><![CDATA[Features]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="features" index="0" type="text" index-type="keyword">
+ 		<dynamic-element name="abstract" index="0" type="text_box" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="icone" index="0" data-type="image" type="wcm-image" index-type="keyword">
+ 		<dynamic-content><![CDATA[[$FILE=img-1.png$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="feature-link" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US"><![CDATA[Responsive Design]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="features" index="1" type="text" index-type="keyword">
+ 		<dynamic-element name="abstract" index="0" type="text_box" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="icone" index="0" data-type="image" type="wcm-image" index-type="keyword">
+ 		<dynamic-content><![CDATA[[$FILE=img-2.png$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="feature-link" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US"><![CDATA[Color Scheems]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="features" index="2" type="text" index-type="keyword">
+ 		<dynamic-element name="abstract" index="0" type="text_box" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="icone" index="0" data-type="image" type="wcm-image" index-type="keyword">
+ 		<dynamic-content><![CDATA[[$FILE=img-3.png$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="feature-link" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US"><![CDATA[Theme Settings]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="features" index="3" type="text" index-type="keyword">
+ 		<dynamic-element name="abstract" index="0" type="text_box" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="icone" index="0" data-type="image" type="wcm-image" index-type="keyword">
+ 		<dynamic-content><![CDATA[[$FILE=img-4.png$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="feature-link" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US"><![CDATA[Version Control]]></dynamic-content>
+ 	</dynamic-element>
+ </root>

@@ -1,0 +1,90 @@
+.aui{
+body.skin-red {
+  color: #513c3c;
+  background: url(../../images/custom/color_schemes/skin-red/bg-body.png) repeat;
+}
+h1.skin-red ,
+h2.skin-red ,
+h3.skin-red ,
+h4.skin-red ,
+h5.skin-red ,
+h6.skin-red  {
+  color: #342626;
+}
+hr.skin-red  {
+  background-color: #e5d6d6;
+}
+input.skin-red , textarea.skin-red  {
+  border-color: #d5bdbd #e5d6d6 #e5d6d6 #d5bdbd;
+  color: #555555;
+}
+/* 1.2 Hyperlinks */
+a.skin-red  {
+  color: #e85252;
+}
+.skin-red a:hover {
+  color: #c63030;
+}
+/* 2.1 Containers & Columns */
+.skin-red #content-wrap {
+  border-bottom: 1px solid #d1b7b7;
+}
+.skin-red #widgets-footer-wrap {
+  background: url(../../images/custom/color_schemes/skin-red/bg-footer.png) repeat;
+  border-bottom: 1px solid #d1b7b7;
+  border-top: 1px solid #ffffff;
+}
+/* 2.2 Navigation */
+.skin-red #navigation a {
+  border-color: transparent #dbc6c6 transparent #ffffff;
+  color: #8c6767;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.skin-red #navigation ul a:hover {
+  color: #251b1b;
+}
+.skin-red #navigation li.selected a
+{
+  color: #251b1b;
+}
+/* Optional Styling */
+.skin-red #navigation {
+  border: 1px solid #dbc6c6;
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f4e9e9));
+  background: -webkit-linear-gradient(#ffffff, #f4e9e9);
+  background: -moz-linear-gradient(center top, #ffffff 0%, #f4e9e9 100%);
+  background: -moz-gradient(center top, #ffffff 0%, #f4e9e9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#f4e9e9);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#f4e9e9)";
+}
+/* 2.2.1 Drop-down menus */
+
+.skin-red #navigation .child-menu{ 
+		
+  		background: #fdfdfd;
+  		border-color: #dbc6c6;
+		li a {
+			  color: #8c6767;
+		}
+		
+	}
+	
+.skin-red #header-wrap {
+  border-bottom: 1px solid #d1b7b7;
+  border-top: 3px solid #292323;
+}
+.skin-red #footer {
+ color: #6e5252;
+}
+.skin-red #footer p {
+  color: #8c6767;
+}
+.skin-red #widgets-footer {
+  border-bottom: 1px solid #d1b7b7;
+  box-shadow: 0 1px 0 0 #ffffff;
+  -webkit-box-shadow: 0 1px 0 0 #ffffff;
+  -moz-box-shadow: 0 1px 0 0 #ffffff;
+  -o-box-shadow: 0 1px 0 0 #ffffff;
+}
+}

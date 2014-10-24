@@ -1,0 +1,6 @@
+<div id="content-box">
+    <h3>$head.data</h3>
+    <hr class="separation">
+    <p><img style="float:right" src="$image.data" />$body.data
+    </p>
+</div>

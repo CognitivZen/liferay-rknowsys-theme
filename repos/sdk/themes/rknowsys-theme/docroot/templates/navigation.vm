@@ -1,0 +1,61 @@
+
+<nav class="$nav_css_class" id="navigation">
+	
+	<ul>
+		#foreach ($nav_item in $nav_items)
+			#if ($nav_item.isSelected())
+				<li class="selected">
+			#else
+				<li>
+			#end
+				<a href="$nav_item.getURL()" $nav_item.getTarget()><span>$nav_item.icon() $nav_item.getName()</span></a>
+
+				#if ($nav_item.hasChildren())
+				<span class="sf-sub-indicator"> »</span>
+					<ul class="child-menu">
+						#foreach ($nav_child in $nav_item.getChildren())
+							#if ($nav_child.isSelected())
+								<li class="selected">
+							#else
+								<li>
+							#end
+								<a href="$nav_child.getURL()" $nav_child.getTarget()>$nav_child.getName()</a>
+								</li>
+						#end
+					</ul>
+				#end
+				</li>
+		#end
+		 #if (!$is_signed_in)
+
+				<li>
+	
+    			<a href="$sign_in_url" id="sign-in" rel="nofollow" alt="$sign_in_text">$sign_in_text </a>
+    			</li>
+		#end
+	</ul>
+</nav>
+<script>
+			(function($){
+				
+				//cache nav
+				var nav = $("#navigation");
+				
+				//add indicator and hovers to submenu parents
+				nav.find("li").each(function() {
+					if ($(this).find("ul").length > 0) {
+						
+
+						//show subnav on hover
+						$(this).mouseenter(function() {
+							$(this).find("ul").stop(true, true).slideDown();
+						});
+						
+						//hide submenus on exit
+						$(this).mouseleave(function() {
+							$(this).find("ul").stop(true, true).slideUp();
+						});
+					}
+				});
+			})(jQuery);
+		</script>

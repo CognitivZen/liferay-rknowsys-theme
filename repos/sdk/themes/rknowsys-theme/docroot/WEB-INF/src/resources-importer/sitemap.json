@@ -1,0 +1,119 @@
+{
+	"layouts": [
+		{
+			"columns": [
+				[
+					"image-slider.xml",
+					"features.xml"
+				]
+			],
+			"friendlyURL": "/home",
+			"name": "Home",
+			"title": "Home",
+			"layoutTemplateId": "1_column"
+		},
+		{
+			"columns": [
+				[
+					"aboutus.xml"
+				]
+			],
+			"friendlyURL": "/aboutus",
+			"name": "About Us",
+			"title": "About Us",
+			"layoutTemplateId": "1_column"
+		},
+		{
+			"columns": [
+				[
+					"portfolio.xml"
+				]
+			],
+			"friendlyURL": "/portfolio",
+			"name": "Portfolio",
+			"title": "Portfolio",
+			"layoutTemplateId": "1_column"
+		},
+		
+		{
+			"friendlyURL": "/features",
+			"name": "Features",
+			"title": "Features",
+			"layoutTemplateId": "1_column",
+			"layouts": [
+				{
+					"title": "Responsive Design",
+					"name": "Responsive Design",
+					"friendlyURL": "/responsive-design",
+					"layoutTemplateId": "2_columns_iii",
+					"columns": [
+						[
+							"responsive-design.xml"
+							
+						],
+						[
+							"testimonials.xml"
+						]
+	
+					]
+					
+				},
+				{
+					"title": "Color Schemes",
+					"name": "Color Schemes",
+					"friendlyURL": "/color-schemes",
+					"layoutTemplateId": "2_columns_iii",
+					"columns": [
+						[
+							"color-schemes.xml"
+						],
+						[
+							"testimonials.xml"
+						]
+			
+					]
+					
+				},
+				{
+					"title": "Theme Settings",
+					"name": "Theme Settings",
+					"friendlyURL": "/theme-settings",
+					"layoutTemplateId": "2_columns_iii",
+					"columns": [
+						[
+							"theme-settings.xml"	
+						],
+						[
+							"testimonials.xml"
+						]
+			
+					]
+					
+				},
+				{
+					"title": "Version Control",
+					"name": "Version Control",
+					"friendlyURL": "/version-control",
+					"layoutTemplateId": "2_columns_iii",
+					"columns": [
+						[
+							"version-control.xml"
+						],
+						[
+							"testimonials.xml"
+						]
+			
+					]
+					
+				}
+				
+			],
+			"columns": [
+				[
+					"features.xml",
+				]
+			]
+		}
+		
+	]
+}
