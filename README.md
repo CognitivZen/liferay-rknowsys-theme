@@ -1,10 +1,15 @@
 ##Liferay Theme By RKnowsys Technologies (http://www.rknowsys.com)
 ---
 Free and Open Source responsive Liferay Theme with following features
+<br>
 1) Responsive Design
+<br>
 2) Ready to use Site Template
+<br>
 3) Custom Color Schemes
+<br>
 4) Theme Settings
+<br>
 
 ###Requirements
 ---
