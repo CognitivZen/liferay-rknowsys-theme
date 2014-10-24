@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+ 
+ <root available-locales="en_US" default-locale="en_US">
+ 	<dynamic-element name="heading" index="0" type="text" index-type="keyword">
+ 		<dynamic-content language-id="en_US"><![CDATA[Portfolio]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="ImageElementSet" index="0" type="text" index-type="keyword">
+ 		<dynamic-element name="title" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[one]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="thumbnail" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=thumb.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="image" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=large.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="ImageElementSet" index="1" type="text" index-type="keyword">
+ 		<dynamic-element name="title" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[2]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="thumbnail" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=thumb.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="image" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=large.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="ImageElementSet" index="2" type="text" index-type="keyword">
+ 		<dynamic-element name="title" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[3]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="thumbnail" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=thumb.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="image" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=large.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="ImageElementSet" index="3" type="text" index-type="keyword">
+ 		<dynamic-element name="title" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[4]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="thumbnail" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=thumb.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="image" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=large.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="ImageElementSet" index="4" type="text" index-type="keyword">
+ 		<dynamic-element name="title" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[5]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="thumbnail" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=thumb.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="image" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=large.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="ImageElementSet" index="5" type="text" index-type="keyword">
+ 		<dynamic-element name="title" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[6]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="thumbnail" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=thumb.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-element name="image" index="0" type="wcm-image" data-type="image" index-type="keyword">
+ 			<dynamic-content><![CDATA[[$FILE=large.jpg$]]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 	</dynamic-element>
+ </root>

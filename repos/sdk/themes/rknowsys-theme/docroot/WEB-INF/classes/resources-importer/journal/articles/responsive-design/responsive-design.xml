@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+ 
+ <root available-locales="en_US" default-locale="en_US">
+ 	<dynamic-element name="head" index="0" type="text" index-type="keyword">
+ 		<dynamic-content language-id="en_US"><![CDATA[Responsive Design]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="body" index="0" type="text_box" index-type="keyword">
+ 		<dynamic-content language-id="en_US"><![CDATA["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="image" index="0" data-type="image" type="wcm-image" index-type="keyword">
+ 		<dynamic-content><![CDATA[[$FILE=responsive.png$]]]></dynamic-content>
+ 	</dynamic-element>
+ </root>

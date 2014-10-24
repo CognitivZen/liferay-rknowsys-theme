@@ -1,0 +1,93 @@
+.aui{
+body.skin-blue {
+  color: #3c4851;
+  background: url(../../images/custom/color_schemes/skin-blue/bg-body.png) repeat;
+}
+h1.skin-blue,
+h2.skin-blue,
+h3.skin-blue,
+h4.skin-blue,
+h5.skin-blue,
+h6.skin-blue {
+  color: #262e34;
+}
+hr.skin-blue {
+  background-color: #d6dfe5;
+}
+input.skin-blue, textarea.skin-blue {
+  border-color: #bdccd5 #d6dfe5 #d6dfe5 #bdccd5;
+  color: #555555;
+}
+/* 1.2 Hyperlinks */
+a.skin-blue {
+  color: #52a8e8;
+}
+.skin-blue a:hover {
+  color: #3086c6;
+}
+
+
+/* 2.1 Containers & Columns */
+.skin-blue #content-wrap {
+  border-bottom: 1px solid #b7c7d1;
+}
+.skin-blue #widgets-footer-wrap {
+  background: url(../../images/custom/color_schemes/skin-blue/bg-footer.png) repeat;
+  border-bottom: 1px solid #b7c7d1;
+  border-top: 1px solid #ffffff;
+}
+
+/* 2.2 Navigation */
+.skin-blue #navigation a {
+  border-color: transparent #c6d3db transparent #ffffff;
+  color: #677c8c ;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.skin-blue #navigation ul a:hover {
+  color: #1b2125;
+}
+.skin-blue #navigation li.selected a
+{
+  color: #1b2125;
+}
+/* Optional Styling */
+.skin-blue #navigation {
+  border: 1px solid #c6d3db;
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f5f5f5));
+  background: -webkit-linear-gradient(#ffffff, #f5f5f5);
+  background: -moz-linear-gradient(center top, #ffffff 0%, #f5f5f5 100%);
+  background: -moz-gradient(center top, #ffffff 0%, #f5f5f5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#f5f5f5);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#f5f5f5)";
+}
+/* 2.2.1 Drop-down menus */
+
+.skin-blue #navigation .child-menu{ 
+		
+  		background: #fdfdfd;
+ 		border-color: #c6d3db;
+		li a {
+			color: #677c8c;
+		}
+		
+	}
+/* 2.3 Header */
+
+.skin-blue #header-wrap {
+  border-bottom: 1px solid #b7c7d1;
+}
+.skin-blue #footer {
+  color: #52626e;
+}
+.skin-blue #footer p {
+  color: #677c8c;
+}
+.skin-blue #widgets-footer {
+  border-bottom: 1px solid #b7c7d1;
+  box-shadow: 0 1px 0 0 #ffffff;
+  -webkit-box-shadow: 0 1px 0 0 #ffffff;
+  -moz-box-shadow: 0 1px 0 0 #ffffff;
+  -o-box-shadow: 0 1px 0 0 #ffffff;
+}
+}

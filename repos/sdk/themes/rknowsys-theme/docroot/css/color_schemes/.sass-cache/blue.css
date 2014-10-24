@@ -1,0 +1,67 @@
+.aui {
+  /* 1.2 Hyperlinks */
+  /* 2.1 Containers & Columns */
+  /* 2.2 Navigation */
+  /* Optional Styling */
+  /* 2.2.1 Drop-down menus */
+  /* 2.3 Header */ }
+  .aui body.skin-blue {
+    color: #3c4851;
+    background: url(../../images/custom/color_schemes/skin-blue/bg-body.png) repeat; }
+  .aui h1.skin-blue,
+  .aui h2.skin-blue,
+  .aui h3.skin-blue,
+  .aui h4.skin-blue,
+  .aui h5.skin-blue,
+  .aui h6.skin-blue {
+    color: #262e34; }
+  .aui hr.skin-blue {
+    background-color: #d6dfe5; }
+  .aui input.skin-blue, .aui textarea.skin-blue {
+    border-color: #bdccd5 #d6dfe5 #d6dfe5 #bdccd5;
+    color: #555555; }
+  .aui a.skin-blue {
+    color: #52a8e8; }
+  .aui .skin-blue a:hover {
+    color: #3086c6; }
+  .aui .skin-blue #content-wrap {
+    border-bottom: 1px solid #b7c7d1; }
+  .aui .skin-blue #widgets-footer-wrap {
+    background: url(../../images/custom/color_schemes/skin-blue/bg-footer.png) repeat;
+    border-bottom: 1px solid #b7c7d1;
+    border-top: 1px solid #ffffff; }
+  .aui .skin-blue #navigation a {
+    border-color: transparent #c6d3db transparent #ffffff;
+    color: #677c8c;
+    text-shadow: 0 1px 0 #ffffff; }
+  .aui .skin-blue #navigation ul a:hover {
+    color: #1b2125; }
+  .aui .skin-blue #navigation li.selected a {
+    color: #1b2125; }
+  .aui .skin-blue #navigation {
+    border: 1px solid #c6d3db;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(whitesmoke));
+    background: -webkit-linear-gradient(white, whitesmoke);
+    background: -moz-linear-gradient(center top, white 0%, whitesmoke 100%);
+    background: -moz-gradient(center top, white 0%, whitesmoke 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#f5f5f5);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#f5f5f5)"; }
+  .aui .skin-blue #navigation .child-menu {
+    background: #fdfdfd;
+    border-color: #c6d3db; }
+    .aui .skin-blue #navigation .child-menu li a {
+      color: #677c8c; }
+  .aui .skin-blue #header-wrap {
+    border-bottom: 1px solid #b7c7d1; }
+  .aui .skin-blue #footer {
+    color: #52626e; }
+  .aui .skin-blue #footer p {
+    color: #677c8c; }
+  .aui .skin-blue #widgets-footer {
+    border-bottom: 1px solid #b7c7d1;
+    box-shadow: 0 1px 0 0 #ffffff;
+    -webkit-box-shadow: 0 1px 0 0 #ffffff;
+    -moz-box-shadow: 0 1px 0 0 #ffffff;
+    -o-box-shadow: 0 1px 0 0 #ffffff; }
+

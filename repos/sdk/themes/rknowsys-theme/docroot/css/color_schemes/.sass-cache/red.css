@@ -1,0 +1,67 @@
+.aui {
+  /* 1.2 Hyperlinks */
+  /* 2.1 Containers & Columns */
+  /* 2.2 Navigation */
+  /* Optional Styling */
+  /* 2.2.1 Drop-down menus */ }
+  .aui body.skin-red {
+    color: #513c3c;
+    background: url(../../images/custom/color_schemes/skin-red/bg-body.png) repeat; }
+  .aui h1.skin-red,
+  .aui h2.skin-red,
+  .aui h3.skin-red,
+  .aui h4.skin-red,
+  .aui h5.skin-red,
+  .aui h6.skin-red {
+    color: #342626; }
+  .aui hr.skin-red {
+    background-color: #e5d6d6; }
+  .aui input.skin-red, .aui textarea.skin-red {
+    border-color: #d5bdbd #e5d6d6 #e5d6d6 #d5bdbd;
+    color: #555555; }
+  .aui a.skin-red {
+    color: #e85252; }
+  .aui .skin-red a:hover {
+    color: #c63030; }
+  .aui .skin-red #content-wrap {
+    border-bottom: 1px solid #d1b7b7; }
+  .aui .skin-red #widgets-footer-wrap {
+    background: url(../../images/custom/color_schemes/skin-red/bg-footer.png) repeat;
+    border-bottom: 1px solid #d1b7b7;
+    border-top: 1px solid #ffffff; }
+  .aui .skin-red #navigation a {
+    border-color: transparent #dbc6c6 transparent #ffffff;
+    color: #8c6767;
+    text-shadow: 0 1px 0 #ffffff; }
+  .aui .skin-red #navigation ul a:hover {
+    color: #251b1b; }
+  .aui .skin-red #navigation li.selected a {
+    color: #251b1b; }
+  .aui .skin-red #navigation {
+    border: 1px solid #dbc6c6;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f4e9e9));
+    background: -webkit-linear-gradient(white, #f4e9e9);
+    background: -moz-linear-gradient(center top, white 0%, #f4e9e9 100%);
+    background: -moz-gradient(center top, white 0%, #f4e9e9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#f4e9e9);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#f4e9e9)"; }
+  .aui .skin-red #navigation .child-menu {
+    background: #fdfdfd;
+    border-color: #dbc6c6; }
+    .aui .skin-red #navigation .child-menu li a {
+      color: #8c6767; }
+  .aui .skin-red #header-wrap {
+    border-bottom: 1px solid #d1b7b7;
+    border-top: 3px solid #292323; }
+  .aui .skin-red #footer {
+    color: #6e5252; }
+  .aui .skin-red #footer p {
+    color: #8c6767; }
+  .aui .skin-red #widgets-footer {
+    border-bottom: 1px solid #d1b7b7;
+    box-shadow: 0 1px 0 0 #ffffff;
+    -webkit-box-shadow: 0 1px 0 0 #ffffff;
+    -moz-box-shadow: 0 1px 0 0 #ffffff;
+    -o-box-shadow: 0 1px 0 0 #ffffff; }
+

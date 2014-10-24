@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+ 
+ <root available-locales="en_US" default-locale="en_US">
+ 	<dynamic-element name="activeIndex" index="0" type="text" index-type="">
+ 		<dynamic-content language-id="en_US"><![CDATA[0]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="timeInterval" index="0" type="text" index-type="">
+ 		<dynamic-content language-id="en_US"><![CDATA[2]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="maxImageHeight" index="0" type="text" index-type="">
+ 		<dynamic-content language-id="en_US"><![CDATA[300]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="maxImageWidth" index="0" type="text" index-type="">
+ 		<dynamic-content language-id="en_US"><![CDATA[900]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="image" index="0" data-type="image" type="wcm-image" index-type="keyword">
+ 		<dynamic-element name="linkUrl" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content><![CDATA[[$FILE=1.jpg$]]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="image" index="1" type="image" index-type="keyword">
+ 		<dynamic-element name="linkUrl" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content><![CDATA[[$FILE=2.jpg$]]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="image" index="2" type="image" index-type="keyword">
+ 		<dynamic-element name="linkUrl" index="0" type="text" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content><![CDATA[[$FILE=3.jpg$]]]></dynamic-content>
+ 	</dynamic-element>
+ </root>

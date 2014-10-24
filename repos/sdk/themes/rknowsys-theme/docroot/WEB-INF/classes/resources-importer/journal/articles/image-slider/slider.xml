@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+ 
+ <root available-locales="en_US" default-locale="en_US">
+ 	<dynamic-element name="images" index="0" type="image" index-type="keyword">
+ 		<dynamic-element name="imagelink" index="0" type="link_to_layout" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[1@public@12120]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US" id="14535">/image/journal/article?img_id=14535&amp;t=1413792253081</dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="images" index="1" type="image" index-type="keyword">
+ 		<dynamic-element name="imagelink" index="0" type="link_to_layout" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[1@public@12120]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US" id="14536">/image/journal/article?img_id=14536&amp;t=1413792253410</dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="images" index="2" type="image" index-type="keyword">
+ 		<dynamic-element name="imagelink" index="0" type="link_to_layout" index-type="keyword">
+ 			<dynamic-content language-id="en_US"><![CDATA[1@public@12120]]></dynamic-content>
+ 		</dynamic-element>
+ 		<dynamic-content language-id="en_US" id="14537">/image/journal/article?img_id=14537&amp;t=1413792253560</dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="containerwidth" index="0" type="ddm-number" index-type="keyword">
+ 		<dynamic-content language-id="en_US"><![CDATA[900]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="containerhight" index="0" type="ddm-number" index-type="keyword">
+ 		<dynamic-content language-id="en_US"><![CDATA[300]]></dynamic-content>
+ 	</dynamic-element>
+ 	<dynamic-element name="intervaltime" index="0" type="ddm-number" index-type="keyword">
+ 		<dynamic-content language-id="en_US"><![CDATA[2]]></dynamic-content>
+ 	</dynamic-element>
+ </root>

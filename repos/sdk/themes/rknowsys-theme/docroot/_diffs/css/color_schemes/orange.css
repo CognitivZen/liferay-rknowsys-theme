@@ -1,0 +1,45 @@
+$orange: #ff9966;
+
+.aui{
+	body.skin-orange {
+	}
+
+	.skin-orange a {
+	  color: $orange;
+	}
+	
+	.skin-orange #navigation a:hover {
+		background:$orange;
+	}
+	.skin-orange #navigation li.selected > a {
+		background:$orange;
+	}
+	.skin-orange #navigation li .child-menu {
+		border-top:solid 2px $orange;
+	}
+	.skin-orange #navigation li .child-menu li a:hover {
+		background:$orange;
+	}
+	
+	.skin-orange #features ul li {
+		border:solid 1px $orange;
+		.img-icon {
+			background:$orange;
+		}
+	}
+	.skin-orange #portfolio a {
+		border:solid 1px $orange;
+	}
+	.skin-orange #quicklinks {
+		border:solid 1px $orange;
+		h3 {
+		background:$orange;
+		}
+	}
+	.skin-orange #testimonials {
+		border:solid 1px $orange;
+		h3 {
+			background:$orange;
+		}
+	}
+}

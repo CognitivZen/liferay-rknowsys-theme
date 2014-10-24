@@ -1,0 +1,4 @@
+<div id="testimonials">
+    <h3>$heading.data</h3>
+    <p><img style="float:right" src="$image.data"/>$content.data</p>
+</div>

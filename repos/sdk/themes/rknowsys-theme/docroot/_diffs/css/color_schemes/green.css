@@ -1,0 +1,45 @@
+$green: #47d500;
+
+.aui{
+	body.skin-green {
+	}
+
+	.skin-green a {
+	  color: $green;
+	}
+	
+	.skin-green #navigation a:hover {
+		background:$green;
+	}
+	.skin-green #navigation li.selected > a {
+		background:$green;
+	}
+	.skin-green #navigation li .child-menu {
+		border-top:solid 2px $green;
+	}
+	.skin-green #navigation li .child-menu li a:hover {
+		background:$green;
+	}
+	
+	.skin-green #features ul li {
+		border:solid 1px $green;
+		.img-icon {
+			background:$green;
+		}
+	}
+	.skin-green #portfolio a {
+		border:solid 1px $green;
+	}
+	.skin-green #quicklinks {
+		border:solid 1px $green;
+		h3 {
+		background:$green;
+		}
+	}
+	.skin-green #testimonials {
+		border:solid 1px $green;
+		h3 {
+			background:$green;
+		}
+	}
+}

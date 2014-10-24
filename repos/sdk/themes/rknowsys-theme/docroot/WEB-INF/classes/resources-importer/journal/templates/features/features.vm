@@ -1,0 +1,16 @@
+<div id="features">
+<h2>$main-heading.data</h2>
+    <ul>
+    #foreach($feature in $features.siblings)
+        <li>
+            <div class="img-icon">
+             <img src="$feature.icone.data" alt="">
+             </div>
+             <div class="feature">
+                <h3>$feature.data</h3>
+                <p>$feature.abstract.data</p>
+             </div>
+        </li>
+    #end
+    </ul>
+</div>

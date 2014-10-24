@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+#parse ($init)
+
+<html class="$root_css_class" dir="#language ("lang.dir")" lang="$w3c_language_id">
+
+<head>
+	#set($company_name = "Rknowsys")
+	<title>$company_name : $the_title</title>
+	$theme.include($top_head_include)
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+	$theme.include($top_head_include)
+	#set($site_logo = "$images_folder/custom/logo.jpg")
+	#set($logo_description = "Rknowsys")
+	#set($site_name = "Rknowsys")
+	#set($site_logo_height = "auto")
+	#set($site_logo_width = "auto")
+	#set ($show_breadcrumb = $theme_display.getThemeSetting('show-breadcrumb'))
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+	<!-- *** jquery *** -->
+	<script src="$themeDisplay.getPathThemeRoot()/js/jquery.min.js" type="text/javascript"></script>
+	<!-- ************* Moderniz *************	-->
+	<script src="$themeDisplay.getPathThemeRoot()/js/modernizr.min.js" type="text/javascript"></script>
+	<script src="$themeDisplay.getPathThemeRoot()/js/jquery.flexslider-min.js" type="text/javascript"></script>
+</head>
+
+<body class="$css_class">
+
+<a href="#main-content" id="skip-to-content">#language ("skip-to-content")</a>
+
+$theme.include($body_top_include)
+
+#if ($is_signed_in)
+	#dockbar()
+#end
+<div id="wrap-head">
+	<header id="banner" role="banner" class="header">
+		<div class="container">
+			<h1 class="site-title">
+				<a class="$logo_css_class" href="$site_default_url" title="#language("go-to") $site_name">
+					<img alt="$logo_description" height="$site_logo_height" src="$site_logo" width="$site_logo_width" />
+				</a>
+
+				#if ($show_site_name)
+					<span class="site-name" title="#language("go-to") $site_name">
+						$site_name
+					</span>
+				#end
+			</h1>
+		</div>
+	</header>
+</div>
+<div id="wrap-nav">
+	<div class="container">
+	#if ($has_navigation || $is_signed_in)
+		#parse ("$full_templates_path/navigation.vm")
+	#end
+	</div>
+</div>
+<div id="wrap-content">
+	<div id="content" class="container">
+			#if ($show_breadcrumb == 'true')
+			    <nav class="site-breadcrumbs" id="breadcrumbs">
+			        #breadcrumbs()
+			    </nav>
+			#end
+			#if ($selectable)
+				$theme.include($content_include)
+			#else
+				$portletDisplay.recycle()
+	
+				$portletDisplay.setTitle($the_title)
+	
+				$theme.wrapPortlet("portlet.vm", $content_include)
+			#end
+	</div>
+</div>
+<div id="wrap-footer">
+	<footer id="footer" role="contentinfo">
+		<div class="container">
+		<p class="powered-by">
+			#language ("powered-by") <a href="http://www.liferay.com" rel="external">Liferay</a>
+		</p>
+		</div>
+	</footer>
+</div>
+
+
+$theme.include($body_bottom_include)
+
+$theme.include($bottom_include)
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+#set($imageWidth = $maxImageWidth.Data)
+#set($imageHeight = $maxImageHeight.Data)
+#set($imageWidthPx = $imageWidth + "px")
+#set($imageHeightPx = $imageHeight + "px")
+#set($interval = $timeInterval.Data)
+#set($activeIndexValue = $activeIndex.Data)
+ 
+<style type="text/css">
+	.aui .carousel {
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		user-select: none;
+		margin: 20px auto;
+	}
+	.aui .carousel-item {
+		border-radius: 6px;
+		opacity: 0;
+	}
+	.aui .carousel li {
+		margin: 0 !important;
+	}
+</style>
+ 
+#set($totalCount = 0)
+<div id="myCarousal">
+	#foreach($imageElement in $image.getSiblings())
+		#if($imageElement.getData() != "")
+			#if($imageElement.linkUrl.getData() != "")
+				<a href="$imageElement.linkUrl.Data">
+					<img class="carousel-item" src="$imageElement.Data" height="$imageHeightPx !important" width="$imageWidthPx" />
+				</a>
+			#else
+				<img class="carousel-item" src="$imageElement.Data" height="$imageHeightPx" width="$imageWidthPx" />
+			#end
+			#set($totalCount = $totalCount + 1)
+		#end
+	#end
+</div>
+ 
+#if($totalCount > 0)
+	<script>
+		AUI().ready('aui-carousel', function(A) 
+		{ 
+			var carousel = new A.Carousel(
+			{ 
+				contentBox: '#myCarousal', 
+				activeIndex: $activeIndexValue,
+				intervalTime: $interval, 
+				width: $imageWidth, 
+				height: $imageHeight 
+			}).render(); 
+		});
+	</script>
+#end

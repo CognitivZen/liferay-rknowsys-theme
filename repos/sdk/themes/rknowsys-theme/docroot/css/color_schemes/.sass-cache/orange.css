@@ -1,0 +1,25 @@
+.aui .skin-orange a {
+  color: #ff9966; }
+.aui .skin-orange #navigation a:hover {
+  background: #ff9966; }
+.aui .skin-orange #navigation li.selected > a {
+  background: #ff9966; }
+.aui .skin-orange #navigation li .child-menu {
+  border-top: solid 2px #ff9966; }
+.aui .skin-orange #navigation li .child-menu li a:hover {
+  background: #ff9966; }
+.aui .skin-orange #features ul li {
+  border: solid 1px #ff9966; }
+  .aui .skin-orange #features ul li .img-icon {
+    background: #ff9966; }
+.aui .skin-orange #portfolio a {
+  border: solid 1px #ff9966; }
+.aui .skin-orange #quicklinks {
+  border: solid 1px #ff9966; }
+  .aui .skin-orange #quicklinks h3 {
+    background: #ff9966; }
+.aui .skin-orange #testimonials {
+  border: solid 1px #ff9966; }
+  .aui .skin-orange #testimonials h3 {
+    background: #ff9966; }
+

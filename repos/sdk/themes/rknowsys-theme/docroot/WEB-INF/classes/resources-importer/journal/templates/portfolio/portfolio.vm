@@ -1,0 +1,56 @@
+#set($totalCount = 0)
+
+<div id="portfolio">
+<h2>$heading.data</h2>
+
+#foreach($imageElement in $ImageElementSet.getSiblings())
+
+    #if($imageElement.image.getData() != "")
+
+            <a href="$imageElement.image.Data" title="$imageElement.title.Data">
+
+                <img class="picture" src="$imageElement.thumbnail.Data" />
+
+            </a>
+
+    #set($totalCount = $totalCount + 1)
+
+    #end
+
+#end
+
+</div>
+
+#if($totalCount > 0)
+
+<script>
+
+AUI().ready(
+
+  'aui-image-viewer-base',
+
+  function(A) {
+
+    new A.ImageViewer(
+
+      {
+
+        caption: '$caption.getData()',
+
+        captionFromTitle: true,
+
+        links: '#portfolio a',
+
+        preloadAllImages: true
+
+      }
+
+    ).render();
+
+  }
+
+);
+
+</script>
+
+#end
