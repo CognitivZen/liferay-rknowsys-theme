@@ -383,8 +383,18 @@
     height: 220px !important; }
   .aui #myCarousal img {
     width: 720px;
-    height: 220px; } }
+    height: 220px; }
+    .aui #myCarousal img .carousel menu {
+      right: 190px; } }
 /*--------------------- Responsive for mobile ----------------------*/
+@media (max-width: 640px) {
+  .aui .yui3-widget.component.carousel {
+    height: 200px !important; }
+  .aui #myCarousal img {
+    width: 600px;
+    height: 200px; }
+    .aui #myCarousal img .carousel menu {
+      right: 310px; } }
 @media (max-width: 480px) {
   .aui #navigation {
     display: block; }
@@ -397,8 +407,26 @@
     .aui #features li:last-child {
       margin-bottom: 0px; }
   .aui .yui3-widget.component.carousel {
-    height: 100px !important; }
+    height: 120px !important; }
+  .aui #myCarousal img {
+    width: 440px;
+    height: 120px; }
+    .aui #myCarousal img .carousel menu {
+      right: 470px; } }
+@media (max-width: 360px) {
+  .aui .yui3-widget.component.carousel {
+    height: 110px !important; }
   .aui #myCarousal img {
     width: 320px;
-    height: 100px; } }
+    height: 110px; }
+    .aui #myCarousal img .carousel menu {
+      right: 585px; } }
+@media (max-width: 320px) {
+  .aui .yui3-widget.component.carousel {
+    height: 90px !important; }
+  .aui #myCarousal img {
+    width: 280px;
+    height: 90px; }
+    .aui #myCarousal img .carousel menu {
+      right: 625px; } }
 
