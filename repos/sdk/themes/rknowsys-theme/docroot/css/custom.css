@@ -365,11 +365,32 @@
 			#myCarousal img {
 				width:720px;
 				height:220px;
+				.carousel menu {
+					right:190px;
+				}
 			}
 		}
 	}
 	
 /*--------------------- Responsive for mobile ----------------------*/	
+	@media (max-width: 640px) {
+		
+		.aui {
+
+			.yui3-widget.component.carousel {
+				height:200px !important;
+			}
+			#myCarousal img {
+				width:600px;
+				height:200px;
+				.carousel menu {
+					right:310px;
+				}
+			}
+		
+		}
+	
+	}
 	@media (max-width: 480px) {
 		
 		.aui {
@@ -391,11 +412,52 @@
 				}
 			}
 			.yui3-widget.component.carousel {
-				height:100px !important;
+				height:120px !important;
+			}
+			#myCarousal img {
+				width:440px;
+				height:120px;
+				.carousel menu {
+					right:470px;
+				}
+			}
+		
+		}
+	
+	}
+	
+	@media (max-width: 360px) {
+		
+		.aui {
+
+			.yui3-widget.component.carousel {
+				height:110px !important;
 			}
 			#myCarousal img {
 				width:320px;
-				height:100px;
+				height:110px;
+				.carousel menu {
+					right:585px;
+				}
+			}
+		
+		}
+	
+	}
+	
+	@media (max-width: 320px) {
+		
+		.aui {
+
+			.yui3-widget.component.carousel {
+				height:90px !important;
+			}
+			#myCarousal img {
+				width:280px;
+				height:90px;
+				.carousel menu {
+					right:625px;
+				}
 			}
 		
 		}

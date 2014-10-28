@@ -8,6 +8,6 @@
  		<dynamic-content language-id="en_US"><![CDATA["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></dynamic-content>
  	</dynamic-element>
  	<dynamic-element name="image" index="0" type="wcm-image" data-type="image" index-type="keyword">
- 		<dynamic-content><![CDATA[[$FILE=testim.png$]]]></dynamic-content>
+ 		<dynamic-content><![CDATA[[$FILE=kc.png$]]]></dynamic-content>
  	</dynamic-element>
  </root>

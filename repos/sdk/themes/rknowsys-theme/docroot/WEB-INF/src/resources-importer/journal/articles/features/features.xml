@@ -26,7 +26,7 @@
  		<dynamic-element name="feature-link" index="0" type="text" index-type="keyword">
  			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
  		</dynamic-element>
- 		<dynamic-content language-id="en_US"><![CDATA[Color Scheems]]></dynamic-content>
+ 		<dynamic-content language-id="en_US"><![CDATA[Color Schemes]]></dynamic-content>
  	</dynamic-element>
  	<dynamic-element name="features" index="2" type="text" index-type="keyword">
  		<dynamic-element name="abstract" index="0" type="text_box" index-type="keyword">
